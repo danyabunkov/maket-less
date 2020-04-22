@@ -1,0 +1,216 @@
+.info {
+  width: max-content;
+  border-radius: 3px;
+  background-color: whitesmoke;
+  border: 10px solid white;
+  height: max-content;
+}
+.info_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 15px 0 0 15px;
+}
+.info_header:after {
+  content: '';
+  background-color: darkgrey;
+  height: 1px;
+  margin: 15px 0 0 -15px;
+}
+.info_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info_main:after {
+  content: '';
+  background-color: darkgrey;
+  height: 1px;
+  margin-top: 15px;
+}
+.info_footer {
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: lightgrey;
+}
+.main_fio {
+  display: flex;
+  justify-items: flex-start;
+  padding: 10px;
+}
+.main_profesion {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.main_number {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.main_email {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.fio {
+  width: 300px;
+}
+.fio_abr {
+  color: darkgrey;
+  width: 100px;
+}
+.fio_value {
+  width: 200px;
+}
+.profesion {
+  width: 300px;
+}
+.profesion_abr {
+  color: darkgrey;
+  width: 100px;
+}
+.email {
+  width: 300px;
+}
+.email_abr {
+  color: darkgrey;
+  width: 100px;
+}
+.email_value {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.email_confirm {
+  font-size: 10px;
+  width: 100px;
+  margin: 10px 0 0 0;
+  word-spacing: 3px;
+  color: darkgrey;
+}
+.email_confirm_yes {
+  color: white;
+  border-radius: 5px;
+  background-color: green;
+}
+.email_confirm_no {
+  color: white;
+  border-radius: 5px;
+  background-color: orange;
+}
+.number {
+  width: 300px;
+}
+.number_abr {
+  color: darkgrey;
+  width: 100px;
+}
+.number_value {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.number_confirm_yes {
+  color: white;
+  border-radius: 5px;
+  background-color: green;
+}
+.number_confirm_no {
+  color: white;
+  border-radius: 5px;
+  background-color: orange;
+}
+.btn {
+  width: 130px;
+  height: 20px;
+  background-color: dodgerblue;
+  border-radius: 7px;
+  border: 1px solid blue;
+}
+.btn_number {
+  margin-top: 10px;
+  color: white;
+  font-size: 10px;
+}
+.btn_number:active {
+  outline: none;
+  border: 2px solid blue;
+}
+.btn_number:focus {
+  outline: none;
+}
+.btn_edit {
+  width: 30px;
+}
+.btn_edit:after {
+  content: '\270E';
+}
+.btn_edit:active {
+  outline: none;
+  border: none;
+  background-color: orange;
+  border-radius: 4px;
+  color: white;
+}
+.btn_create {
+  width: 30px;
+}
+.btn_create:after {
+  content: '\2752';
+}
+.btn_create:active {
+  outline: none;
+  border: none;
+  background-color: orange;
+  border-radius: 4px;
+  color: white;
+}
+.btn_save {
+  margin-right: 30px;
+  width: 100px;
+  height: 20px;
+  background-color: dodgerblue;
+  border-radius: 7px;
+  text-align: center;
+}
+.btn_save:focus {
+  outline: none;
+}
+.btn_save:active {
+  outline: none;
+}
+.btn_save:before {
+  content: '\2611';
+}
+.btn_wrang {
+  width: 70px;
+  height: 20px;
+  border-radius: 7px;
+  text-align: center;
+}
+.btn_wrang:focus {
+  outline: none;
+}
+.btn_wrang:active {
+  outline: none;
+}
+input {
+  width: max-content;
+  border-radius: 5px;
+  background-color: white;
+  height: 20px;
+  font-size: 14px;
+}
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=loyaut.css.map */

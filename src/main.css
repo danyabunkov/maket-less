@@ -1,0 +1,21 @@
+.main_fio {
+  display: flex;
+  justify-items: flex-start;
+  padding: 10px;
+}
+.main_profesion {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.main_number {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.main_email {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+/*# sourceMappingURL=main.css.map */

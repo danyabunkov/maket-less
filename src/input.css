@@ -1,0 +1,10 @@
+input {
+  width: max-content;
+  border-radius: 5px;
+  background-color: white;
+}
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+/*# sourceMappingURL=input.css.map */

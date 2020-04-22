@@ -1,0 +1,18 @@
+.email {
+  width: 300px;
+}
+.email_abr {
+  color: darkgrey;
+  width: 100px;
+}
+.email_value {
+  width: 200px;
+}
+.email_value:after {
+  content: '\2713';
+  color: white;
+  margin-left: 10px;
+  background-color: green;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=email.css.map */

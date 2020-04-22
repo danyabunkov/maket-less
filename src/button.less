@@ -1,0 +1,85 @@
+.btn {
+  width: 130px;
+  height: 20px;
+  background-color: dodgerblue;
+  border-radius: 7px;
+  border: 1px solid blue;
+
+
+  &_number {
+    margin-top: 10px;
+    color: white;
+    font-size: 10px;
+
+    &:active {
+      outline: none;
+      border: 2px solid blue;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &_edit {
+    width: 30px;
+
+    &:after {
+      content: '\270E';
+    }
+
+    &:active {
+      outline: none;
+      border: none;
+      background-color: orange;
+      border-radius: 4px;
+      color: white;
+    }
+
+  }
+
+  &_create {
+    width: 30px;
+
+    &:after {
+      content: '\2752';
+    }
+
+    &:active {
+      outline: none;
+      border: none;
+      background-color: orange;
+      border-radius: 4px;
+      color: white;
+    }
+  }
+  &_save {
+    margin-right: 30px;
+    width: 100px;
+    height: 20px;
+    background-color: dodgerblue;
+    border-radius: 7px;
+    text-align: center;
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      outline: none;
+    }
+    &:before {
+      content:'\2611';
+    }
+  }
+  &_wrang {
+    width: 70px;
+    height: 20px;
+    border-radius: 7px;
+    text-align: center;
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      outline: none;
+    }
+  }
+}

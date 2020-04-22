@@ -1,0 +1,18 @@
+.number {
+  width: 300px;
+}
+.number_abr {
+  color: darkgrey;
+  width: 100px;
+}
+.number_value {
+  width: 200px;
+}
+.number_value:after {
+  content: '\2713';
+  color: white;
+  margin-left: 10px;
+  background-color: green;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=number.css.map */
